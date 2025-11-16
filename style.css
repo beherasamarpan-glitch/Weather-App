@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.weather-input{
+    width: 40%;
+    position: fixed;
+    inset: 0;
+    background: yellowgreen;
+    padding: 1rem 2.5rem;
+}
+
+.input-group{
+    position: relative;
+    display:flex;
+    align-items: center;
+    margin: 2rem 0 ;
+
+}
+
+.input-group input{
+    background: white;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    border: none;
+
+}
+
+.input-group .converter{
+    position: absolute;
+    right: 45px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.input-group .fa-search{
+    position: absolute;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.594);
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.weather-output{
+    width: 60%;
+    position: fixed;
+    inset: 0;
+    margin-left: 40%;
+    padding: 2rem;
+    background: rgba(235, 232, 232, 0.741);
+    overflow: auto;
+}
+
+.Highlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+
+.Highlight div {
+    height: 200px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #D2DCB6;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.Highlight i{
+    font-size: 45px;
+}
+
+.sun span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
