@@ -8,10 +8,10 @@ body{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background: #03be9f;
+    background: #932F67;
 }
 .container{
-    background-image: linear-gradient(135deg, #00d49c, #5b548a);
+    background-image: linear-gradient(135deg, #9bd400, #547f8a);
     backdrop-filter: blur(10px);
     width: 90%;
     max-width: 470px;
