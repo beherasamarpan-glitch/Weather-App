@@ -4,7 +4,7 @@ const APIKEY = "d54b108e96c80d6717d844eba8dad9a6",
 const searchBox = document.getElementById("city");
 const searchBtn = document.getElementById("btn");
 
-async function checkWeather(city = 'tunisia'){
+async function checkWeather(city = 'bhadrak'){
     const res = await fetch(URL + city + `&appid=${APIKEY}`);
     let data = await res.json();
     document.querySelector(".city").innerHTML = data.name;
